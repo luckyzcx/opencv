@@ -6,5 +6,8 @@ find_package( OpenCV REQUIRED )
 #加入依赖库文件
 include_directories( ${OpenCV_INCLUDE_DIRS} )
 #main.cpp 编译成opencvs
-add_executable(main main.cpp)
+add_executable(main main.cpp 41canny边缘加强.cpp)
 target_link_libraries(main ${OpenCV_LIBS} )
+
+add_executable(41 41canny边缘加强.cpp)
+target_link_libraries(41 ${OpenCV_LIBS} )
