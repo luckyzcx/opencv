@@ -67,17 +67,17 @@ include CMakeFiles/42.dir/progress.make
 include CMakeFiles/42.dir/flags.make
 
 CMakeFiles/42.dir/42canny边缘细化.cpp.o: CMakeFiles/42.dir/flags.make
-CMakeFiles/42.dir/42canny边缘细化.cpp.o: 42canny边缘细化.cpp
+CMakeFiles/42.dir/42canny边缘细化.cpp.o: ../42canny边缘细化.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zcx/桌面/CPPopencv/git/opencv/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/42.dir/42canny边缘细化.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/42.dir/42canny边缘细化.cpp.o -c /home/zcx/桌面/CPPopencv/git/opencv/cmake-build-debug/42canny边缘细化.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/42.dir/42canny边缘细化.cpp.o -c /home/zcx/桌面/CPPopencv/git/opencv/42canny边缘细化.cpp
 
 CMakeFiles/42.dir/42canny边缘细化.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/42.dir/42canny边缘细化.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zcx/桌面/CPPopencv/git/opencv/cmake-build-debug/42canny边缘细化.cpp > CMakeFiles/42.dir/42canny边缘细化.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zcx/桌面/CPPopencv/git/opencv/42canny边缘细化.cpp > CMakeFiles/42.dir/42canny边缘细化.cpp.i
 
 CMakeFiles/42.dir/42canny边缘细化.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/42.dir/42canny边缘细化.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zcx/桌面/CPPopencv/git/opencv/cmake-build-debug/42canny边缘细化.cpp -o CMakeFiles/42.dir/42canny边缘细化.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zcx/桌面/CPPopencv/git/opencv/42canny边缘细化.cpp -o CMakeFiles/42.dir/42canny边缘细化.cpp.s
 
 # Object files for target 42
 42_OBJECTS = \

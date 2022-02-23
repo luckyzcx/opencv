@@ -200,89 +200,89 @@ Mat non_maximum_suppression(Mat angle,Mat edge){
 
     Mat _edge = Mat::zeros(height,width,CV_8UC1);
 
-    for(int y=0;y<height;y++){
-        for(int x=0;x<width;x++){
-            now_angle =angle.at<uchar>(y,x);
+    for(int y=0;y<height;y++) {
+        for (int x = 0; x < width; x++) {
+            now_angle = angle.at<uchar>(y, x);
 
-            if(now_angle == 0){
+            if (now_angle == 0) {
                 dx1 = -1;
                 dy1 = 0;
-                dx2 =1;
-                dy2 =0;
-            }else if(now_angle == 45){
-                dx1 =-1;
-                dy1 =1;
                 dx2 = 1;
-                dy2 =-1;
-            }else if(now_angle ==90){
-                dx1 =0;
-                dy1=-1;
-                dx2 =0;
-                dy2 =1;
-            }else{
-            dx1 =-1;
-            dy1 = -1;
-            dx2 =1;
-            dy2 =1;
+                dy2 = 0;
+            } else if (now_angle == 45) {
+                dx1 = -1;
+                dy1 = 1;
+                dx2 = 1;
+                dy2 = -1;
+            } else if (now_angle == 90) {
+                dx1 = 0;
+                dy1 = -1;
+                dx2 = 0;
+                dy2 = 1;
+            } else {
+                dx1 = -1;
+                dy1 = -1;
+                dx2 = 1;
+                dy2 = 1;
             }
 
-            if(x ==0){
-                dx1 = fmax(dx1 ,0);
-                dx2 =fmax(dx2,0);
+            if (x == 0) {
+                dx1 = fmax(dx1, 0);
+                dx2 = fmax(dx2, 0);
             }
-            if(x == (width -1)){
-                dx1 = fmin(dx1,0);
-                dx2 = fmin(dx2,0);
+            if (x == (width - 1)) {
+                dx1 = fmin(dx1, 0);
+                dx2 = fmin(dx2, 0);
             }
-            if(y ==0){
-                dy1 = fmax(dy1 ,0);
-                dy2 =fmax(dy2,0);
+            if (y == 0) {
+                dy1 = fmax(dy1, 0);
+                dy2 = fmax(dy2, 0);
             }
-            if(x == (height -1)){
-                dx1 = fmin(dy1,0);
-                dx2 = fmin(dy2,0);
+            if (x == (height - 1)) {
+                dx1 = fmin(dy1, 0);
+                dx2 = fmin(dy2, 0);
+            }
+            //   if(fmax(fmax(edge.at<uchar>(y,x), edge.at<uchar>(y + dy1,x +dx1)),edge.at<uchar>(y + dy2), x+dx2))==edge.at<uchar>(y,x)) {
+            //     _edge.at<uchar>(y,x) = edge.at<uchar>(y,x);
+            if (fmax(fmax(edge.at<uchar>(y, x), edge.at<uchar>(y + dy1, x + dx1)), edge.at<uchar>(y + dy2, x + dx2)) ==
+                edge.at<uchar>(y, x)) {
+                _edge.at<uchar>(y, x) = edge.at<uchar>(y, x);
+            }
+
         }
-         //   if(fmax(fmax(edge.at<uchar>(y,x), edge.at<uchar>(y + dy1,x +dx1)),edge.at<uchar>(y + dy2), x+dx2))==edge.at<uchar>(y,x)) {
-           //     _edge.at<uchar>(y,x) = edge.at<uchar>(y,x);
-                if (fmax(fmax(edge.at<uchar>(y, x), edge.at<uchar>(y + dy1, x + dx1)), edge.at<uchar>(y + dy2, x + dx2)) == edge.at<uchar>(y, x)) {
-                    _edge.at<uchar>(y, x) = edge.at<uchar>(y, x);
-            }
-
-}
+    }
         return _edge;
     }
 
 
-int Canny_step2(Mat img){
+    int Canny_step2(Mat img) {
 
-    Mat gray = BGR2GRAY(img);
+        Mat gray = BGR2GRAY(img);
 
-    Mat gaussian = gaussian_filter(gray, 1.4, 5);
+        Mat gaussian = gaussian_filter(gray, 1.4, 5);
 
-    Mat fy = soble_filter(gaussian, 3,false);
+        Mat fy = soble_filter(gaussian, 3, false);
 
-    Mat fx = soble_filter(gaussian, 3, true);
+        Mat fx = soble_filter(gaussian, 3, true);
 
-    Mat edge =get_edge(fx, fy);
+        Mat edge = get_edge(fx, fy);
 
-    Mat angle = get_angle(fx,fy);
+        Mat angle = get_angle(fx, fy);
 
-    edge = non_maxmum_suppression(angle, edge);
+        edge = non_maximum_suppression(angle, edge);
 
-    imshow("answer(edge)", edge);
-    imshow("answer(angle", angle);
-    waitKey(0);
-    destroyAllWindows();
+        imshow("answer(edge)", edge);
+        imshow("answer(angle", angle);
+        waitKey(0);
+        destroyAllWindows();
 
-    return 0;
-}
+        return 0;
+    }
 
+    int main(int argc,const char* argv[]) {
+        Mat img = imread("a.jpg", IMREAD_COLOR);
 
+        Canny_step2(img);
 
-int main(int argc,const char* argv[]){
-    Mat img = imread("a.jpg", IMREAD_COLOR);
-
-    Canny_step2(img);
-
-    return 0;
-}
+        return 0;
+    }

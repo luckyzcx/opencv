@@ -187,7 +187,7 @@ main/fast:
 
 # target to build an object file
 42canny边缘细化.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/41.dir/build.make CMakeFiles/41.dir/42canny边缘细化.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/42canny边缘细化.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/42.dir/build.make CMakeFiles/42.dir/42canny边缘细化.cpp.o
 .PHONY : 42canny边缘细化.cpp.o
 
@@ -196,7 +196,7 @@ main/fast:
 
 # target to preprocess a source file
 42canny边缘细化.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/41.dir/build.make CMakeFiles/41.dir/42canny边缘细化.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/42canny边缘细化.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/42.dir/build.make CMakeFiles/42.dir/42canny边缘细化.cpp.i
 .PHONY : 42canny边缘细化.cpp.i
 
@@ -205,7 +205,7 @@ main/fast:
 
 # target to generate assembly for a file
 42canny边缘细化.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/41.dir/build.make CMakeFiles/41.dir/42canny边缘细化.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/42canny边缘细化.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/42.dir/build.make CMakeFiles/42.dir/42canny边缘细化.cpp.s
 .PHONY : 42canny边缘细化.cpp.s
 

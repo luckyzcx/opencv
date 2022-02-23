@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/main.dir/41canny边缘加强.cpp.o"
+  "CMakeFiles/main.dir/42canny边缘细化.cpp.o"
   "CMakeFiles/main.dir/main.cpp.o"
   "main"
   "main.pdb"

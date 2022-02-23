@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/zcx/桌面/CPPopencv/git/opencv/cmake-build-debug/42canny边缘细化.cpp
+/home/zcx/桌面/CPPopencv/git/opencv/42canny边缘细化.cpp
 opencv2/core.hpp
 -
 opencv2/highgui.hpp
