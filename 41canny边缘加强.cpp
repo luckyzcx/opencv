@@ -213,7 +213,7 @@ int Canny_step1(Mat img){
 }
 
 int main(int argc,const char* argv[]){
-    Mat img = imread("a.jpg",IMREAD_COLOR);
+    Mat img = imread("../qx1.png",IMREAD_COLOR);
 
     Canny_step1(img);
 

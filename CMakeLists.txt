@@ -9,5 +9,8 @@ include_directories( ${OpenCV_INCLUDE_DIRS} )
 add_executable(main main.cpp 41canny边缘加强.cpp)
 target_link_libraries(main ${OpenCV_LIBS} )
 
-add_executable(41 41canny边缘加强.cpp)
+add_executable(41 41canny边缘加强.cpp cmake-build-debug/42canny边缘细化.cpp)
 target_link_libraries(41 ${OpenCV_LIBS} )
+
+add_executable(42 42canny边缘细化.cpp)
+target_link_libraries(42 ${OpenCV_LIBS} )
