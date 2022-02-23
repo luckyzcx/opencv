@@ -1,0 +1,5 @@
+/home/zcx/桌面/CPPopencv/git/opencv/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/zcx/桌面/CPPopencv/git/opencv/cmake-build-debug/CMakeFiles/main.dir
+/home/zcx/桌面/CPPopencv/git/opencv/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/zcx/桌面/CPPopencv/git/opencv/cmake-build-debug/CMakeFiles/41.dir
+/home/zcx/桌面/CPPopencv/git/opencv/cmake-build-debug/CMakeFiles/42.dir

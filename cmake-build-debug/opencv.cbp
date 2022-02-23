@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="opencv"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\usr\local\opencv346\;CMake Files\..\..\..\..\..\..\usr\local\opencv346\share\;CMake Files\..\..\..\..\..\..\usr\local\opencv346\share\OpenCV\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/zcx/桌面/CPPopencv/git/opencv/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zcx/桌面/CPPopencv/git/opencv/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zcx/桌面/CPPopencv/git/opencv/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zcx/桌面/CPPopencv/git/opencv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zcx/桌面/CPPopencv/git/opencv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/zcx/桌面/CPPopencv/git/opencv/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zcx/桌面/CPPopencv/git/opencv/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zcx/桌面/CPPopencv/git/opencv/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zcx/桌面/CPPopencv/git/opencv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zcx/桌面/CPPopencv/git/opencv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main">
+				<Option output="/home/zcx/桌面/CPPopencv/git/opencv/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zcx/桌面/CPPopencv/git/opencv/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/opencv346/include"/>
+					<Add directory="/usr/local/opencv346/include/opencv"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zcx/桌面/CPPopencv/git/opencv/cmake-build-debug/Makefile&quot;  VERBOSE=1 main"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zcx/桌面/CPPopencv/git/opencv/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zcx/桌面/CPPopencv/git/opencv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zcx/桌面/CPPopencv/git/opencv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main/fast">
+				<Option output="/home/zcx/桌面/CPPopencv/git/opencv/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zcx/桌面/CPPopencv/git/opencv/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/opencv346/include"/>
+					<Add directory="/usr/local/opencv346/include/opencv"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zcx/桌面/CPPopencv/git/opencv/cmake-build-debug/Makefile&quot;  VERBOSE=1 main/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zcx/桌面/CPPopencv/git/opencv/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zcx/桌面/CPPopencv/git/opencv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zcx/桌面/CPPopencv/git/opencv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/zcx/桌面/CPPopencv/git/opencv/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zcx/桌面/CPPopencv/git/opencv/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zcx/桌面/CPPopencv/git/opencv/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zcx/桌面/CPPopencv/git/opencv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zcx/桌面/CPPopencv/git/opencv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="41">
+				<Option output="/home/zcx/桌面/CPPopencv/git/opencv/cmake-build-debug/41" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zcx/桌面/CPPopencv/git/opencv/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/opencv346/include"/>
+					<Add directory="/usr/local/opencv346/include/opencv"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zcx/桌面/CPPopencv/git/opencv/cmake-build-debug/Makefile&quot;  VERBOSE=1 41"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zcx/桌面/CPPopencv/git/opencv/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zcx/桌面/CPPopencv/git/opencv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zcx/桌面/CPPopencv/git/opencv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="41/fast">
+				<Option output="/home/zcx/桌面/CPPopencv/git/opencv/cmake-build-debug/41" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zcx/桌面/CPPopencv/git/opencv/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/opencv346/include"/>
+					<Add directory="/usr/local/opencv346/include/opencv"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zcx/桌面/CPPopencv/git/opencv/cmake-build-debug/Makefile&quot;  VERBOSE=1 41/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zcx/桌面/CPPopencv/git/opencv/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zcx/桌面/CPPopencv/git/opencv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zcx/桌面/CPPopencv/git/opencv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="42">
+				<Option output="/home/zcx/桌面/CPPopencv/git/opencv/cmake-build-debug/42" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zcx/桌面/CPPopencv/git/opencv/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/opencv346/include"/>
+					<Add directory="/usr/local/opencv346/include/opencv"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zcx/桌面/CPPopencv/git/opencv/cmake-build-debug/Makefile&quot;  VERBOSE=1 42"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zcx/桌面/CPPopencv/git/opencv/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zcx/桌面/CPPopencv/git/opencv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zcx/桌面/CPPopencv/git/opencv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="42/fast">
+				<Option output="/home/zcx/桌面/CPPopencv/git/opencv/cmake-build-debug/42" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zcx/桌面/CPPopencv/git/opencv/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/opencv346/include"/>
+					<Add directory="/usr/local/opencv346/include/opencv"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zcx/桌面/CPPopencv/git/opencv/cmake-build-debug/Makefile&quot;  VERBOSE=1 42/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zcx/桌面/CPPopencv/git/opencv/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zcx/桌面/CPPopencv/git/opencv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zcx/桌面/CPPopencv/git/opencv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/zcx/桌面/CPPopencv/git/opencv/41canny边缘加强.cpp">
+			<Option target="main"/>
+			<Option target="41"/>
+		</Unit>
+		<Unit filename="/home/zcx/桌面/CPPopencv/git/opencv/cmake-build-debug/42canny边缘细化.cpp">
+			<Option target="41"/>
+			<Option target="42"/>
+		</Unit>
+		<Unit filename="/home/zcx/桌面/CPPopencv/git/opencv/main.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/zcx/桌面/CPPopencv/git/opencv/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/zcx/桌面/CPPopencv/git/opencv/../../../../../../usr/local/opencv346/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\opencv346\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/zcx/桌面/CPPopencv/git/opencv/../../../../../../usr/local/opencv346/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\opencv346\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/zcx/桌面/CPPopencv/git/opencv/../../../../../../usr/local/opencv346/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\opencv346\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/zcx/桌面/CPPopencv/git/opencv/../../../../../../usr/local/opencv346/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\opencv346\share\OpenCV\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
